@@ -73,8 +73,9 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
           <configuration>
-            <url>http://13.204.82.93:8080/manager/hellofolder</url>
-            <server>tomcatserver</server>
+            <url>http://13.201.77.68:8080/manager/hellofolder</url>
+ 
+           <server>tomcatserver</server>
             <path>/carwebapp</path>
             <username>admin</username>
             <password>admin</password>
